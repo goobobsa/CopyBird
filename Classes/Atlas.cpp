@@ -1,0 +1,78 @@
+#include "Atlas.h"
+
+map<string, Atlas> g_Atlas;
+
+void importAtlas()
+{
+	g_Atlas["bg_day"] = Atlas(288, 512, 0, 0);
+	g_Atlas["bg_night"] = Atlas(288, 512, 292, 0);
+	g_Atlas["bird0_0"] = Atlas(48, 48, 0, 970);
+	g_Atlas["bird0_1"] = Atlas(48, 48, 56, 970);
+	g_Atlas["bird0_2"] = Atlas(48, 48, 112, 970);
+	g_Atlas["bird1_0"] = Atlas(48, 48, 168, 970);
+	g_Atlas["bird1_1"] = Atlas(48, 48, 224, 646);
+	g_Atlas["bird1_2"] = Atlas(48, 48, 224, 698);
+	g_Atlas["bird2_0"] = Atlas(48, 48, 224, 750);
+	g_Atlas["bird2_1"] = Atlas(48, 48, 224, 802);
+	g_Atlas["bird2_2"] = Atlas(48, 48, 224, 854);
+	g_Atlas["black"] = Atlas(32, 32, 584, 412);
+	g_Atlas["blink_00"] = Atlas(10, 10, 276, 682);
+	g_Atlas["blink_01"] = Atlas(10, 10, 276, 734);
+	g_Atlas["blink_02"] = Atlas(10, 10, 276, 786);
+	g_Atlas["brand_copyright"] = Atlas(126, 14, 884, 182);
+	g_Atlas["button_menu"] = Atlas(80, 28, 924, 52);
+	g_Atlas["button_ok"] = Atlas(80, 28, 924, 84);
+	g_Atlas["button_pause"] = Atlas(26, 28, 242, 612);
+	g_Atlas["button_play"] = Atlas(116, 70, 702, 234);
+	g_Atlas["button_rate"] = Atlas(74, 48, 924, 0);
+	g_Atlas["button_resume"] = Atlas(26, 28, 668, 284);
+	g_Atlas["button_score"] = Atlas(116, 70, 822, 234);
+	g_Atlas["button_share"] = Atlas(80, 28, 584, 284);
+	g_Atlas["font_048"] = Atlas(24, 44, 992, 116);
+	g_Atlas["font_049"] = Atlas(16, 44, 272, 906);
+	g_Atlas["font_050"] = Atlas(24, 44, 584, 316);
+	g_Atlas["font_051"] = Atlas(24, 44, 612, 316);
+	g_Atlas["font_052"] = Atlas(24, 44, 640, 316);
+	g_Atlas["font_053"] = Atlas(24, 44, 668, 316);
+	g_Atlas["font_054"] = Atlas(24, 44, 584, 364);
+	g_Atlas["font_055"] = Atlas(24, 44, 612, 364);
+	g_Atlas["font_056"] = Atlas(24, 44, 640, 364);
+	g_Atlas["font_057"] = Atlas(24, 44, 668, 364);
+	g_Atlas["land"] = Atlas(336, 112, 584, 0);
+	g_Atlas["medals_0"] = Atlas(44, 44, 242, 516);
+	g_Atlas["medals_1"] = Atlas(44, 44, 242, 564);
+	g_Atlas["medals_2"] = Atlas(44, 44, 224, 906);
+	g_Atlas["medals_3"] = Atlas(44, 44, 224, 954);
+	g_Atlas["new"] = Atlas(32, 14, 224, 1002);
+	g_Atlas["number_context_00"] = Atlas(12, 14, 276, 646);
+	g_Atlas["number_context_01"] = Atlas(12, 14, 276, 664);
+	g_Atlas["number_context_02"] = Atlas(12, 14, 276, 698);
+	g_Atlas["number_context_03"] = Atlas(12, 14, 276, 716);
+	g_Atlas["number_context_04"] = Atlas(12, 14, 276, 750);
+	g_Atlas["number_context_05"] = Atlas(12, 14, 276, 768);
+	g_Atlas["number_context_06"] = Atlas(12, 14, 276, 802);
+	g_Atlas["number_context_07"] = Atlas(12, 14, 276, 820);
+	g_Atlas["number_context_08"] = Atlas(12, 14, 276, 854);
+	g_Atlas["number_context_09"] = Atlas(12, 14, 276, 872);
+	g_Atlas["number_context_10"] = Atlas(12, 14, 992, 164);
+	g_Atlas["number_score_00"] = Atlas(16, 20, 272, 612);
+	g_Atlas["number_score_01"] = Atlas(16, 20, 272, 954);
+	g_Atlas["number_score_02"] = Atlas(16, 20, 272, 978);
+	g_Atlas["number_score_03"] = Atlas(16, 20, 260, 1002);
+	g_Atlas["number_score_04"] = Atlas(16, 20, 1002, 0);
+	g_Atlas["number_score_05"] = Atlas(16, 20, 1002, 24);
+	g_Atlas["number_score_06"] = Atlas(16, 20, 1008, 52);
+	g_Atlas["number_score_07"] = Atlas(16, 20, 1008, 84);
+	g_Atlas["number_score_08"] = Atlas(16, 20, 584, 484);
+	g_Atlas["number_score_09"] = Atlas(16, 20, 620, 412);
+	g_Atlas["pipe2_down"] = Atlas(52, 320, 0, 646);
+	g_Atlas["pipe2_up"] = Atlas(52, 320, 56, 646);
+	g_Atlas["pipe_down"] = Atlas(52, 320, 112, 646);
+	g_Atlas["pipe_up"] = Atlas(52, 320, 168, 646);
+	g_Atlas["score_panel"] = Atlas(238, 126, 0, 516);
+	g_Atlas["text_game_over"] = Atlas(204, 54, 784, 116);
+	g_Atlas["text_ready"] = Atlas(196, 62, 584, 116);
+	g_Atlas["title"] = Atlas(178, 48, 702, 182);
+	g_Atlas["tutorial"] = Atlas(114, 98, 584, 182);
+	g_Atlas["white"] = Atlas(32, 32, 584, 448);
+}
